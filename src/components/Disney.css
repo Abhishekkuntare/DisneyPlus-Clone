@@ -1,0 +1,370 @@
+.disney {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+img {
+  width: 100%;
+  /* z-index: -1; */
+}
+
+.image1Info > span {
+  position: relative;
+  left: 27%;
+  font-size: 54px;
+  font-weight: 600;
+  bottom: 568px;
+}
+
+.image1Info > P {
+  position: absolute;
+  right: 154px;
+  bottom: 250px;
+  letter-spacing: 1.4px;
+}
+
+.image1Info > div {
+  position: absolute;
+  right: 114px;
+  bottom: 121px;
+  letter-spacing: 1.4px;
+}
+
+.image1Info > button {
+  position: absolute;
+  right: 257px;
+  bottom: 61px;
+  padding: 12px;
+  width: 179px;
+  cursor: pointer;
+  font-family: cursive;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+}
+
+.image1Info > button:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+  transform: scaleX(1.1);
+  /* background-color: black; */
+}
+
+.image2Info > span {
+  position: relative;
+  right: 32%;
+  bottom: 436px;
+  font-size: 54px;
+  font-weight: 600;
+  color: azure;
+}
+
+.image2Info > p {
+  position: absolute;
+  top: 1526px;
+  left: 137px;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image2Info > div {
+  position: absolute;
+  top: 1587px;
+  left: 88px;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image2Info > button {
+  position: absolute;
+  padding: 12px;
+  width: 179px;
+  cursor: pointer;
+  font-family: cursive;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  top: 1736px;
+  left: 198px;
+}
+
+.image2Info > button:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+  transform: scaleX(1.1);
+  /* background-color: black; */
+}
+
+.image3Info > span {
+  position: relative;
+  left: 24%;
+  font-size: 54px;
+  font-weight: 600;
+  bottom: 568px;
+}
+
+.image3Info > p {
+  position: absolute;
+  top: 2360px;
+  left: 63%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image3Info > div {
+  position: absolute;
+  top: 2420px;
+  left: 60%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image3Info > button {
+  position: absolute;
+  padding: 12px;
+  width: 179px;
+  cursor: pointer;
+  font-family: cursive;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  top: 2527px;
+  left: 67%;
+}
+
+.image3Info > button:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+  transform: scaleX(1.1);
+  /* background-color: black; */
+}
+
+.image4Info > span {
+  position: relative;
+  left: -28%;
+  font-size: 54px;
+  font-weight: 600;
+  bottom: 490px;
+}
+
+.image4Info > p {
+  position: absolute;
+  top: 3479px;
+  left: 12%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image4Info > div {
+  position: absolute;
+  top: 3541px;
+  left: 12%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image4Info > button {
+  position: absolute;
+  padding: 12px;
+  width: 179px;
+  cursor: pointer;
+  font-family: cursive;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  top: 3678px;
+  left: 20%;
+}
+
+.image4Info > button:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+  transform: scaleX(1.1);
+  /* background-color: black; */
+}
+
+.image5Info > span {
+  position: relative;
+  left: 30%;
+  font-size: 54px;
+  font-weight: 600;
+  bottom: 449px;
+}
+
+.image5Info > p {
+  position: absolute;
+  top: 4570px;
+  left: 76%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image5Info > div {
+  position: absolute;
+  top: 4616px;
+  left: 72%;
+  font-family: cursive;
+  letter-spacing: 1px;
+  color: azure;
+}
+
+.image5Info > button {
+  position: absolute;
+  padding: 12px;
+  width: 179px;
+  cursor: pointer;
+  font-family: cursive;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  top: 4724px;
+  left: 79%;
+}
+
+.image5Info > button:hover {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+
+  transform: scaleX(1.1);
+  /* background-color: black; */
+}
+
+@media all and (max-width: 400px) {
+  .img {
+    width: 98%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .image1Info > span {
+    position: relative;
+    left: 11%;
+    font-size: 22px;
+    font-weight: 600;
+    bottom: 129px;
+  }
+
+  .image1Info > p {
+    display: none;
+  }
+
+  .image1Info > div {
+    display: none;
+  }
+
+  .image1Info > button {
+    display: none;
+  }
+
+  .image2Info > span {
+    position: relative;
+    left: 28%;
+    font-size: 22px;
+    font-weight: 600;
+    bottom: 210px;
+  }
+
+  .image2Info > p {
+    display: none;
+  }
+
+  .image2Info > div {
+    display: none;
+  }
+
+  .image2Info > button {
+    display: none;
+  }
+  .image3Info > span {
+    position: relative;
+    left: 28%;
+    font-size: 22px;
+    font-weight: 600;
+    bottom: 210px;
+  }
+
+  .image3Info > p {
+    display: none;
+  }
+
+  .image3Info > div {
+    display: none;
+  }
+
+  .image3Info > button {
+    display: none;
+  }
+  .image4Info > span {
+    position: relative;
+    left: 28%;
+    font-size: 22px;
+    font-weight: 600;
+    bottom: 210px;
+  }
+
+  .image4Info > p {
+    display: none;
+  }
+
+  .image4Info > div {
+    display: none;
+  }
+
+  .image4Info > button {
+    display: none;
+  }
+  .image5Info > span {
+    position: relative;
+    left: 28%;
+    font-size: 22px;
+    font-weight: 600;
+    bottom: 210px;
+  }
+
+  .image5Info > p {
+    display: none;
+  }
+
+  .image5Info > div {
+    display: none;
+  }
+
+  .image5Info > button {
+    display: none;
+  }
+}

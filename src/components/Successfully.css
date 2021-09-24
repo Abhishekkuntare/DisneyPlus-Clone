@@ -1,0 +1,48 @@
+.successfully {
+  display: flex;
+  justify-content: center;
+  height: 750px;
+  width: 100%;
+  padding: 200px;
+  background-repeat: no-repeat;
+}
+
+.abhishek > img {
+  width: 1500px;
+  height: 748px;
+}
+.successfully > h1 {
+  margin-top: -823px;
+  color: whitesmoke;
+  font-size: 2ch;
+  font-family: cursive;
+}
+.submit {
+  position: absolute;
+  top: 33%;
+  border-radius: 2px;
+  outline: none;
+  width: 30%;
+  transition: 0.5s all ease-in-out;
+}
+.submit:hover {
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
+    rgb(0 0 0 / 72%) 0px 30px 22px -10px;
+
+  transform: scale(1.05);
+  border-color: rgba(249, 249, 249, 0.8);
+}
+@media all and (max-width: 1100px) {
+  .successfully > h1 {
+    font-size: 7px;
+    text-align: center;
+    padding-top: 228px;
+  }
+
+  .submit {
+    margin-top: -51px;
+    width: 72px;
+    border: 1px solid black;
+  }
+}

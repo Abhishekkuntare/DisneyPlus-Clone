@@ -1,0 +1,390 @@
+.payment {
+  display: flex;
+  position: fixed;
+  width: 50%;
+  height: 750px;
+  color: aliceblue;
+  font-family: cursive;
+}
+.loginScreen__gradiant {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(1, 1, 1, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0,
+    rgba(0, 0, 0, 2) 60%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.payment > img {
+  opacity: 0.3;
+}
+
+.payment__head {
+  left: 45%;
+  top: 17%;
+  position: absolute;
+}
+.payment > h5 {
+  font-size: 1.25rem;
+  left: 47%;
+  top: 12%;
+  position: absolute;
+  opacity: 0.8;
+  font-family: cursive;
+}
+.plansoffer {
+  left: 45%;
+  top: 25%;
+  position: absolute;
+  color: wheat;
+  font-family: cursive;
+  letter-spacing: 2px;
+  margin-left: -50px;
+}
+.plansoffer > p {
+  margin-bottom: 20px;
+}
+
+.permonth {
+  left: 52%;
+  top: 20%;
+  position: absolute;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+.terms {
+  left: 47%;
+  top: 87%;
+  position: absolute;
+  color: whitesmoke;
+  display: flex;
+  font-family: cursive;
+  letter-spacing: 1.3px;
+  font-size: medium;
+  margin-left: -78px;
+  opacity: 0.6;
+}
+.terms > p {
+  padding: 5px;
+}
+.google {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 750px;
+  width: 50%;
+  left: 50%;
+}
+
+.goole__logo {
+  padding: 15px;
+  padding-left: 18px;
+  height: 36px;
+  width: 261px;
+  font-size: 29px;
+  color: black;
+  border-radius: 6px;
+  margin-top: 80px;
+  padding-top: 5px;
+  margin-left: 33px;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+
+.goole__logo:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.border {
+  border: 2px solid gray;
+  position: absolute;
+}
+
+.payment__form {
+  position: absolute;
+  margin-top: 159px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 37px;
+  font-family: cursive;
+}
+.payment__form > img {
+  width: 100%;
+}
+.payment__form > form > h1 {
+  font-size: 1.6ch;
+  margin-top: -16px;
+  opacity: 0.6;
+  color: black;
+  font-family: cursive;
+}
+
+.payment__name {
+  width: 250px;
+  margin-left: 6px;
+  background: none;
+  margin-top: 15px;
+  padding-left: 9px;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 34px;
+  font-family: cursive;
+  color: black;
+  transition: 0.5s all ease-in-out;
+}
+
+.payment__name:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.payment__email {
+  width: 250px;
+  margin-left: 6px;
+  background: none;
+  margin-top: 26px;
+  padding-left: 9px;
+  border: 1px solid;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 34px;
+  color: #000;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+.payment__email:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.payment__card {
+  width: 250px;
+  margin-left: 6px;
+  background: none;
+  margin-top: 26px;
+  padding-left: 9px;
+  border: 1px solid;
+  border-radius: 3px;
+  display: flex;
+  height: 34px;
+  flex-direction: column;
+  color: #000;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+.payment__card:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.fa-cc-visa {
+  position: absolute;
+  top: 71.2%;
+  right: 19%;
+  color: blue;
+}
+.fa-cc-mastercard {
+  position: absolute;
+  top: 71.2%;
+  right: 10%;
+  color: orange;
+}
+.fa-credit-card {
+  position: absolute;
+  top: 71.2%;
+  right: 1%;
+  color: rgb(82, 79, 75);
+}
+
+.mm {
+  width: 45px;
+  margin-left: 6px;
+  height: 34px;
+  color: #000;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+
+.mm:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.yy {
+  width: 64px;
+  height: 34px;
+  color: #000;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+.yy:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.cvc {
+  width: 141px;
+  margin-top: 3px;
+  height: 34px;
+  color: #000;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+.cvc:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.cvv {
+  position: absolute;
+  top: 88%;
+  right: 3%;
+  color: rgb(78, 195, 216);
+}
+.button {
+  position: absolute;
+  top: 175%;
+  height: 36px;
+  width: 261px;
+  border-radius: 6px;
+  font-size: 1.8ch;
+  font-weight: 300;
+  left: 0;
+  color: black;
+  font-family: cursive;
+  border: 1px solid black;
+  transition: 0.5s all ease-in-out;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.paragraphplan {
+  position: absolute;
+  top: 200%;
+  text-align: center;
+  opacity: 0.8;
+  color: gray;
+  font-size: 1.2ch;
+  padding-top: 10px;
+}
+
+@media all and (max-width: 900px) {
+  .payment > h5 {
+    margin-left: -82px;
+  }
+  .permonth {
+    margin-left: -64px;
+    margin-top: -14px;
+  }
+  .plansoffer {
+    margin-left: -72px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .terms {
+    margin-left: -64px;
+  }
+
+  .goole__logo {
+    margin-left: 8px;
+    padding: 5px 69px;
+    width: 179px;
+    margin-top: 86px;
+  }
+  .payment__form > form > h1 {
+    margin-left: 1px;
+  }
+
+  .payment__name {
+    margin-left: -12px;
+    width: 152px;
+  }
+
+  .payment__email {
+    margin-left: -12px;
+    width: 152px;
+  }
+  .payment__card {
+    margin-left: -12px;
+    width: 152px;
+  }
+  .fa-cc-visa {
+    font-size: 17px;
+    margin-top: 65px;
+    margin-right: 93px;
+  }
+  .fa-cc-mastercard {
+    font-size: 17px;
+    margin-top: 65px;
+    margin-right: 59px;
+  }
+  .fa-credit-card {
+    font-size: 17px;
+    margin-top: 65px;
+    margin-right: 18px;
+  }
+  .mm {
+    width: 45px;
+    margin-left: -2px;
+    position: absolute;
+    top: 226px;
+    background: transparent;
+    height: 24px;
+    text-align: center;
+    left: 0;
+  }
+  .yy {
+    width: 45px;
+    position: absolute;
+    top: 226px;
+    background: transparent;
+    left: 68px;
+    height: 24px;
+    text-align: center;
+  }
+  .cvc {
+    width: 124px;
+    margin-top: 3px;
+    position: absolute;
+    background: transparent;
+    top: 265px;
+    left: 0px;
+  }
+  .cvv {
+    position: absolute;
+    top: 88%;
+    right: 3%;
+    color: rgb(78, 195, 216);
+    position: absolute;
+    top: 213px;
+    background: transparent;
+  }
+  .button {
+    height: 36px;
+    width: 192px;
+    font-size: 20px;
+    margin-left: -34px;
+    margin-top: 17px;
+  }
+  .paragraphplan {
+    padding-top: 46px;
+    letter-spacing: 1px;
+    font-size: 8px;
+    margin: -5px;
+  }
+}
